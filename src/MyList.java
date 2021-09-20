@@ -17,6 +17,13 @@ public class MyList {
                 }
            return result;
        }
+       public int indexOf(String strIndexOf){
+        for(String val:myList){
+            if(val.equals(strIndexOf)){
+                return 1;
+            }
+        }return -1;
+       }
 
 
 }

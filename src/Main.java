@@ -16,5 +16,7 @@ public class Main {
         //car.conteyns("Haval-Its not car");
         System.out.println(car.conteyns("Ford"));
         System.out.println(car.conteyns("Haval-Its not car"));
+        System.out.println(car.indexOf("VAZ"));
+        System.out.println(car.indexOf("Kalina"));
     }
 }
